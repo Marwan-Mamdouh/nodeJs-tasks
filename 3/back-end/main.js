@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.use("/books", booksRouter);
+app.use("/api/v1/books", booksRouter);
 
 const hostname = "127.0.0.1";
 const port = 3000;
